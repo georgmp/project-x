@@ -22,6 +22,9 @@ module.exports = {
     port: 8000,
     watchContentBase: true
   },
+  node: {
+    fs: 'empty'
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
@@ -30,4 +33,6 @@ module.exports = {
       inject: 'body'
     })
   ]
+
 }
+
