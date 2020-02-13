@@ -45,7 +45,8 @@ function drawArea() {
 ``` 
 
 ## Screenshots
-Coming soon
+![Landing Page](./docs/LandingPage.png)
+![Crime markers](./docs/CrimeMarkers.png)
 
 ## Bugs
 - The clear function only clears the polygon and not the markers it contained - this is more a lack of necessary code than a bug
